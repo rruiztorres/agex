@@ -1,6 +1,6 @@
 {
-  "name": "expwizard",
-  "version": "0.1.0",
+  "name": "agex",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,9 +13,11 @@
     "docxtemplater": "^3.29.0",
     "file-saver": "^2.0.5",
     "md5": "^2.3.0",
+    "password-generator": "^2.3.2",
     "pizzip": "^3.1.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vue-text-highlight": "^2.0.10",
     "vuetify": "^2.6.3",
     "webpack": "^4.46.0"
   },

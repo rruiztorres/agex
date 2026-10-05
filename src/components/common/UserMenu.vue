@@ -37,11 +37,11 @@
                     @click="activeMenu(item.menu)"
                 >   
                     <v-list-item-icon>
-                        <v-icon v-text="item.icon"></v-icon>
+                        <v-icon>{{item.icon}}</v-icon>
                     </v-list-item-icon>
 
                     <v-list-item-content>
-                        <v-list-item-title v-text="item.text"></v-list-item-title>
+                        <v-list-item-title>{{item.text}}</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </v-list-item-group>
@@ -77,7 +77,7 @@
                     { text: 'Nuevo Expediente', icon: 'mdi-file-document', menu: 'selector' },
                     { text: 'Mis expedientes', icon: 'mdi-folder', menu: 'misExpedientes' },
                     { text: 'Estado expedientes', icon: 'mdi-folder-clock', menu: '' },
-                    { text: 'Usuarios', icon: 'mdi-account-multiple', menu: 'foo3' },
+                    { text: 'Usuarios', icon: 'mdi-account-multiple', menu: 'gestionUsuarios' },
                     { text: 'Cambios', icon: 'mdi-history', menu: 'foo4' },
                 ],
             }
